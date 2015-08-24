@@ -126,6 +126,7 @@
 	 max_data = count * datatype->super.size;
      }
 
+
      if ( MPI_STATUS_IGNORE != status ) {
 	 status->_ucount = max_data;
      }
